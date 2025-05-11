@@ -1,0 +1,10 @@
+neo4j:
+  name: neo4j
+  password: "project1phase2"
+  edition: "community"
+  plugins:
+    - graph-data-science
+
+volumes:
+  data:
+    mode: defaultStorageClass
